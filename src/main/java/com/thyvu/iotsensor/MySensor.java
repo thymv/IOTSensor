@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.util.ISO8601Utils;
 public class MySensor {
 
 	public static void main(String[] args) throws AWSIotException {
-		int numOfTrials = 3;		// default number of trials to run
+		int numOfTrials = 10;		// default number of trials to run
 		
 		// for publishing
 		String clientEndpoint = "ac4k999ew6y7z.iot.us-west-2.amazonaws.com";       
