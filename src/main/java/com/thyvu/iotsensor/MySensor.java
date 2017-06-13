@@ -23,7 +23,7 @@ public class MySensor {
 		int numOfTrials = 10;		// default number of trials to run
 		
 		// for publishing
-		String clientEndpoint = "ac4k999ew6y7z.iot.us-west-2.amazonaws.com";       
+		String clientEndpoint = "";       			// client endpoint
 		String clientId = "justme";                              //  client ID. Use unique client IDs for concurrent connections.
 		String certificateFile = "sensor.cert.pem";              // X.509 based certificate file
 		String privateKeyFile = "sensor.private.key";            // PKCS#1 or PKCS#8 PEM encoded private key file
