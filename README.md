@@ -3,10 +3,10 @@ This program simulates an IoT sensor by sending MQTT messages to AWS IoT and rec
 The received message is the output necessary to run LatencyAnalysis program.
 
 # Requirements
-1) Must edit the following variables in MySensor java class to reflect your own AWS credentials:
+1. Must edit the following variables in MySensor java class to reflect your own AWS credentials:
 clientEndpoint, certificateFile, privateKeyFile  
 
-2) Configuration in AWS
+2. Configuration in AWS
 An AWS IoT Rule must be set up to insert incoming data from AWS IoT Topic called
 "sensorTopic" to DynamoDB table called RawSensorData.
 
